@@ -1,0 +1,22 @@
+@import '../../sass/variables';
+
+.albumList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+  grid-gap: 2rem;
+}
+
+.albumItem {
+  border: 1px solid rgba($color-dark, .2);
+}
+
+.caption {
+  height: 10rem;
+  padding: 1rem;
+  text-align: center;
+  color: $color-dark;
+}
+
+.link {
+  text-decoration: none;
+}
